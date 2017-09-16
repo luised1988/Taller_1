@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller_1</string>
+    <string name="cantidad">Quantity</string>
+    <string name="clasico">Classic</string>
+    <string name="error_1">Enter the number of shoes</string>
+    <string name="genero">Gender</string>
+    <string name="hombres">Mens</string>
+    <string name="marca">Brand</string>
+    <string name="mujeres">Women</string>
+    <string name="tipo_zapato">Shoe Type</string>
+    <string name="valor_pagar">The value to pay is:</string>
+    <string name="zapatilla">Shoe</string>
+</resources>

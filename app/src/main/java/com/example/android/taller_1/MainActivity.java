@@ -50,147 +50,155 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public  void calcular (View v){
+    public  void calcular (View v) {
         int opcion1;
         int opcion2;
         int opcion3;
 
-        double cant, resultado=0;
-
-        opcion1 = genero.getSelectedItemPosition();
-        opcion2 = tipo_zapato.getSelectedItemPosition();
-        opcion3 = marca.getSelectedItemPosition();
-
-        cant = Double.parseDouble(cantidad.getText().toString());
+        double cant, resultado = 0;
 
 
-        if (opcion1 == 0){
-            if (opcion2 == 0){
-                if (opcion3 == 0){
-                    resultado = 120000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+
+        if (validar()) {
+
+            opcion1 = genero.getSelectedItemPosition();
+            opcion2 = tipo_zapato.getSelectedItemPosition();
+            opcion3 = marca.getSelectedItemPosition();
+
+            cant = Double.parseDouble(cantidad.getText().toString());
+
+            if (opcion1 == 0) {
+                if (opcion2 == 0) {
+                    if (opcion3 == 0) {
+                        resultado = 120000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 0){
-            if (opcion2 == 0){
-                if (opcion3 == 1){
-                    resultado = 140000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 0) {
+                if (opcion2 == 0) {
+                    if (opcion3 == 1) {
+                        resultado = 140000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 0){
-            if (opcion2 == 0){
-                if (opcion3 == 2){
-                    resultado = 130000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 0) {
+                if (opcion2 == 0) {
+                    if (opcion3 == 2) {
+                        resultado = 130000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 0){
-            if (opcion2 == 1){
-                if (opcion3 == 0){
-                    resultado = 50000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 0) {
+                if (opcion2 == 1) {
+                    if (opcion3 == 0) {
+                        resultado = 50000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 0){
-            if (opcion2 == 1){
-                if (opcion3 == 1){
-                    resultado = 80000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 0) {
+                if (opcion2 == 1) {
+                    if (opcion3 == 1) {
+                        resultado = 80000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 0){
-            if (opcion2 == 1){
-                if (opcion3 == 2){
-                    resultado = 100000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 0) {
+                if (opcion2 == 1) {
+                    if (opcion3 == 2) {
+                        resultado = 100000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
 
-
-
-
-
-        if (opcion1 == 1){
-            if (opcion2 == 0){
-                if (opcion3 == 0){
-                    resultado = 100000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 1) {
+                if (opcion2 == 0) {
+                    if (opcion3 == 0) {
+                        resultado = 100000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 1){
-            if (opcion2 == 0){
-                if (opcion3 == 1){
-                    resultado = 130000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 1) {
+                if (opcion2 == 0) {
+                    if (opcion3 == 1) {
+                        resultado = 130000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 1){
-            if (opcion2 == 0){
-                if (opcion3 == 2){
-                    resultado = 110000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 1) {
+                if (opcion2 == 0) {
+                    if (opcion3 == 2) {
+                        resultado = 110000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 1){
-            if (opcion2 == 1){
-                if (opcion3 == 0){
-                    resultado = 60000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 1) {
+                if (opcion2 == 1) {
+                    if (opcion3 == 0) {
+                        resultado = 60000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 1){
-            if (opcion2 == 1){
-                if (opcion3 == 1){
-                    resultado = 70000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 1) {
+                if (opcion2 == 1) {
+                    if (opcion3 == 1) {
+                        resultado = 70000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
-        }
-
-        if (opcion1 == 1){
-            if (opcion2 == 1){
-                if (opcion3 == 2){
-                    resultado = 120000 * cant;
-                    res.setText("" + String.format("%.0f", resultado));
+            if (opcion1 == 1) {
+                if (opcion2 == 1) {
+                    if (opcion3 == 2) {
+                        resultado = 120000 * cant;
+                        res.setText("" + String.format("%.0f", resultado));
+                    }
                 }
+
             }
 
         }
 
     }
+    private boolean validar() {
 
-
+        if (cantidad.getText().toString().isEmpty()) {
+           cantidad.setError(resources.getString(R.string.error_1));
+           cantidad.requestFocus();
+            return false;
+        }return true;
+    }
 
 
 
