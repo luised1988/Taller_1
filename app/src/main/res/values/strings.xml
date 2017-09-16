@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Taller_1</string>
+    <string name="genero">Genero</string>
+    <string name="tipo_zapato">Tipo Zapato</string>
+    <string name="marca">Marca</string>
+    <string name="hombres">Hombres</string>
+    <string name="mujeres">Mujeres</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clasico</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="calcular">Calcular</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="valor_pagar">El valor a pagar es:</string>
+    <string-array name="opciones1">
+        <item>@string/hombres</item>
+        <item>@string/mujeres</item>
+    </string-array>
+    <string-array name="opciones2">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+    <string-array name="opciones3">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </string-array>
 </resources>
